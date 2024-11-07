@@ -1,5 +1,7 @@
 # python for gpt
 
+# 강의 듣고 목표: 스크래퍼 프로그램 만들기
+
 ### data structure
 
 1. mutable
@@ -20,3 +22,8 @@
 ### OOP(Object Oriented Programming)
 
 1. 코드를 구성하는 규칙. 패러다임
+2. 직관적이다.
+3. 함수 캡슐화
+4. method:
+   - **init**()
+   - **str** : puppy를 출력할 때 python에 의해 호출된다.

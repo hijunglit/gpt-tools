@@ -24,3 +24,6 @@ for website in websites:
 
 print(results)
 # 3xx 코드 핸들링
+
+# 상태 코드 반환 웹사이트
+# https://httpstat.us/ 

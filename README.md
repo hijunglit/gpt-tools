@@ -21,6 +21,8 @@
 
 ### OOP(Object Oriented Programming)
 
+_self_ : class 안에 있는 모든 메소드에게 줘야하는 인자
+
 1. 코드를 구성하는 규칙. 패러다임
 2. 직관적이다.
 3. 함수 캡슐화
@@ -28,3 +30,4 @@
    - **init**()
    - **str** : class를 출력할 때 python에 의해 호출된다.
 5. inheritance: 코드의 반복을 줄여준다.(중복)
+   - super() : 부모의 class 를 참조함을 의미한다. 따라서 부모의 **init** 메소드를 호출한다.

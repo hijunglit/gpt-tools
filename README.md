@@ -26,4 +26,5 @@
 3. 함수 캡슐화
 4. method:
    - **init**()
-   - **str** : puppy를 출력할 때 python에 의해 호출된다.
+   - **str** : class를 출력할 때 python에 의해 호출된다.
+5. inheritance: 코드의 반복을 줄여준다.(중복)

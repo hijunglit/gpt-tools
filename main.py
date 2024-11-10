@@ -27,11 +27,11 @@ class Team:
                 self.players.remove(target_player)
             else:
                 print("This value does not exist")
-    def total_xp(self):
+    def total_xp(self, team_name):
+        xp = (0)
         for player in self.players:
-            xp = 0
-            xp + player.xp
-            print(f"The {self.team_name} total xp is {xp}")
+            xp=xp + player.xp
+            print(f"{team_name} total xp is {xp}")
 
 team_red = Team("Team red")
 
@@ -40,11 +40,11 @@ team_red.add_player("John doe")
 team_red.add_player("chris")
 team_red.add_player("harry")
 
+team_red.remove_players("chris")
+
 team_red.show_players()
 
-team_red.remove_players("Haein")
-team_red.show_players()
-team_red.total_xp()
+team_red.total_xp("team_red")
 
 # 챌린지: 팀 클래스에서 플레이어 삭제 메소드 만들기. => remove 메소드 활용
 # 챌린지: 팀 클래스에서 경험치의 총 합을 보여주는 메소드 만들기. 

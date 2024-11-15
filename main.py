@@ -9,5 +9,5 @@ soup = BeautifulSoup(
     response.content,
     "html.parser",
 )
-jobs = soup.find("section", id="category-2")
+jobs = soup.find("section", class_="jobs").find_all("li")
 print(jobs)

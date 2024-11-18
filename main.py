@@ -13,6 +13,9 @@ jobs = soup.find("section",
 class_="jobs").find_all("li")
 
 for job in jobs:
-    title = job.find("span", class_="title")
-    region = job.find("span", class_="region")
-    company, position, _ =  job.find_all("span", class_ ="company")
+    title = job.find("span", class_="title").text
+    company, position, region =  job.find_all("span", class_ ="company")
+    company = company.text
+    position = position.text
+    region = region.text
+    print(title, company, position, region, "--------\n")

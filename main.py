@@ -10,7 +10,7 @@ soup = BeautifulSoup(
     "html.parser",
 )
 jobs = soup.find("section",
-class_="jobs").find_all("li")
+class_="jobs").find_all("li")[1:-1] # 맨 위 li 하나, 맨 아래 li 하나 필요 없음.
 
 all_jobs=[]
 
@@ -28,3 +28,5 @@ for job in jobs:
         "position": position.text
     }
     all_jobs.append(job_data)
+
+print(all_jobs)

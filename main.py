@@ -25,7 +25,9 @@ for job in jobs:
     job_data = {
         "title": title,
         "company": company.text,
-        "position": position.text
+        "position": position.text,
+        "region": region.text,
+        "url": f"https://weworkremotely.com{url}"
     }
     all_jobs.append(job_data)
 

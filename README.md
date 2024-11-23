@@ -42,3 +42,4 @@ _self_ : class 안에 있는 모든 메소드에게 줘야하는 인자
 ### job scrapper
 
 1. beautifulsoup4
+2. 변수에서 언더바(\_)넣는 것은 유효한 variable이다.

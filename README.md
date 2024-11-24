@@ -42,4 +42,5 @@ _self_ : class 안에 있는 모든 메소드에게 줘야하는 인자
 ### job scrapper
 
 1. beautifulsoup4
+   - html을 탐색할 수 있게 해주는 라이브러리
 2. 변수에서 언더바(\_)넣는 것은 유효한 variable이다.

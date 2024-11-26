@@ -44,3 +44,6 @@ _self_ : class 안에 있는 모든 메소드에게 줘야하는 인자
 1. beautifulsoup4
    - html을 탐색할 수 있게 해주는 라이브러리
 2. 변수에서 언더바(\_)넣는 것은 유효한 variable이다.
+3. unpack
+4. len() = 배열의 길이를 반환, find_all() = 배열을 반환
+5. range() : 숫자를 넣어주면 그 숫자만큼 for loop를 실행시켜준다.
